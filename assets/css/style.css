@@ -1,0 +1,160 @@
+*{
+    box-sizing:border-box;
+}
+/* FUENTE DE LETRA DEL BODY */
+body{
+font-family: 'Poppins', sans-serif;;
+width:100%;
+}
+h1,h2,p{
+    font-weight:bold;
+}
+/* FUENTE DE LETRA DEL NAV */
+/*nav {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+}*/
+/*Es un pseudoelemnto para cambiar de color LOS LINK a */
+a.mover:hover{
+background-color:rgb(223, 174, 62);
+border-radius: 40px;
+padding:5px;
+}
+/* Clase para poner COLOR a un TITULO */
+.algomas{
+    color: chocolate;
+}
+/* COLOR EN LA CAJA DE DIV DE NAVEGACION Y CONFIGURACION DE BORDES Y COLOR DE FONDO  */
+/*div {
+    background-color: chartreuse;
+    border:1px dotted red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #000;
+    transform:rotate(0deg);
+    margin: 20px;
+}*/
+/* MENU DE NAVEGACION */
+
+.linea{
+    display: inline;
+    
+}
+nav{
+    padding:5px;
+    border-radius:3%;
+}
+.linea a{
+    color: white;
+    margin-top:50px;
+    margin-right:10px;
+    margin-bottom:30px;
+
+}
+
+.derecho{
+    float: right;
+}
+.menu_navegacion a{
+    padding:5px;
+    color:rgb(255, 255, 255);
+    
+
+}
+
+/* ARTICULO SOMOS */
+.article_somos{
+    text-align: center;
+    background-color: rgb(238, 164, 164);
+    transform:rotate(0deg);
+
+}
+ul{
+    display: inline-block;
+    margin-bottom:70px;
+    border-radius:5%;
+}
+ul,li.linea{
+    padding-top: 10px;   
+}
+
+/* FORMULARIO DEL EJERCICIO*/
+/*.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+*/
+
+form{
+    display: inline;
+    margin-top:5px;
+    margin-bottom:15px;   
+    border-radius:5%;
+    width:100%;       
+}
+.form-inline{
+    padding:10px;
+}
+input.Achicar{
+    width:13%;
+    height:auto;
+    padding-left:1px;
+    padding-right:5px;
+    display:inline;
+}
+button.btn{
+    width:12%;
+    height:auto;
+    padding-left:0;
+    padding-right:0;
+    border-radius:25%;
+    border:1px dashed white;
+    display:inline-block;    
+}
+i.bi-search{
+    display:block;
+}
+.form_principal{
+    display:inline-block;
+    border: 10px double;
+    margin-right:20px;
+}
+/*IMPUT DEL FORMULARIO */
+
+/* CONFIGURACION DEL CARUSEL O SLIDER */
+
+/* COLOR DEL FOOTER */
+footer{
+background-color: rgb(0, 0, 0);
+}
+footer p{
+    color: rgb(255, 255, 255);
+    }
+/* CONFIGURACION DEL FOOTER */
+.footer_config{
+    margin: 20px;   
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #000;
+    transform:rotate(0deg);
+}
+/* CONFIGURACION DEL MARGEN DEL PIE DE PAGINA EN PARRAFO(p) */
+.footer_config,p{
+    margin:10px;
+}
+img{
+    max-width: 1200px;
+    width: 100%;
+    height: 650px;
+    border-radius:3%;
+}
+.ul a{
+    color: white
+}
+.margen_boton_enviar{
+    margin-top: 10px;
+}
+.overflow_hide{
+    overflow: hidden;
+}
+

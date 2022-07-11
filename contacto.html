@@ -1,0 +1,68 @@
+<!-- Integrantes: Carlos Rozas, Carlos Vasquez, Augusto Reyes, Carlos Toledo -->  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Te Lo Vendo</title>
+      <link rel="stylesheet" href="./assets/css/media.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="./icons/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="./assets/css/style.css" />
+      <script src="./assets/js/jquery-3.6.0.min.js"></script>
+      <script src="./assets/js/funciones.js"></script>
+    </head>
+    <body>
+      <header>
+          <h2>Te lo Vendo</h2>
+      </header>
+      <!-- Sección menu de navegación -->
+      <section class="container-fluid">
+        <nav class="navbar-nav navbar-dark bg-dark"> 
+          <div class="row menu-navegacion">           
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12 col-12">
+              <ul>
+                  <li class="linea"><a class="mover" href="index.html">INICIO</a></li>
+                  <li class="linea"><a class="mover" href="index.html#somos__id">QUIENES SOMOS</a></li>
+                  <li class="linea"><a class="mover" href="contacto.html">CONTACTO</a></li>
+              </ul>              
+            </div>
+            <div class="col-xl-5 col-lg-3 col-md-1"></div>
+            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-12 col-12">
+              <form class="form-inline">                 
+                  <input class="form-control mr-sm-2" type="search" placeholder="Buscar Productos" aria-label="Search">
+                  <button class="btn btn-primary my-2 my-sm-0 bi bi-search" type="submit"></button>
+             </form>
+            </div>
+          </div>        
+        </nav>        
+      </section>
+      <!-- Fin Sección menu de navegación -->
+      <!--Sección de Formulario -->
+      <section class="container-fluid form_principal alert alert-info"> 
+        <h2>Contactános</h2>
+        <div class="row">
+          <div class="col-xl-12">
+            <form method="GET" action="" onsubmit="return validacion()" >        
+                <label for="staticNombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Escriba su Nombre" name="name"> 
+                <label for="staticCorreo" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="correo" placeholder="Escriba su correo" name="name">
+                <label for="subject" class="">Mensaje:</label>
+                <textarea type="text" id="mensaje" name="message" rows="2" class="form-control md-textarea" placeholder="Escriba Mensaje o Comentario"></textarea></br>      
+                <input type="submit" value="Enviar" name="enviar" class="btn btn-dark">
+            </form>
+          </div>
+        </div>    
+      </section>
+      <!-- Fin de Sección de Formulario -->  
+      <!-- footer -->
+      <footer class="footer_config navbar-nav navbar-dark bg-dark">
+        <p>Equipo "Te lo Vendo" Año 2022</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    </body>
+</html>
